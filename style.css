@@ -502,6 +502,12 @@ button.white{
 
 
 /* responsive */
+@media (min-width: 800px) {
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+}
 @media(max-width:799px){
     #navbar{
         display:block;
